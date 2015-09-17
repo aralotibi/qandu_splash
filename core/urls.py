@@ -3,3 +3,4 @@ from .views import *
 
 urlpatterns = patterns('',
     url(r'^$', Home.as_view(), name='home'),
+                      )
